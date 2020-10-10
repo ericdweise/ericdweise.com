@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <link rel="stylesheet" href="/assets/stylesheets/main.css">
     </head>
-    <?php include('../header.php'); ?>
+    <!-- HEADER -->
     <div class="page-content">
         <p>
         I started my career as a Software Developer at a small startup company right after I graduated from university in 2015.
@@ -61,5 +61,5 @@
         <h1>Portfolio</h1>
         While much of my professional work is proprietary and confidential, my personal projects are available on <a href="https://github.com/ericdweise">GitHub</a>.
     </div>
-    <?php include('../footer.php'); ?>
+    <!-- FOOTER -->
 </html>

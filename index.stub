@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/stylesheets/main.css">
     </head>
-    <?php include('header.php'); ?>
+    <!--HEADER-->
     <div class="page-content">
         <img class="page-content border circle" src="assets/images/mammoth-lakes.jpg" title="Somewhere near the Mammoth Lakes, CA">
         <p>
@@ -35,5 +35,5 @@
         In turn, I hope to teach the people around me all the interesting things I have learned.
         </p>
     </div>
-    <?php include('footer.php'); ?>
+    <!--FOOTER-->
 </html>

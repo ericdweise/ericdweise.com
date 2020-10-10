@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/assets/stylesheets/main.css">
     </head>
-    <?php include('../../header.php'); ?>
+    <!-- HEADER -->
     <div class="page-content">
         <!-- TODO: Make the post title a required variable -->
         <h1>Starting a Forest</h1>
@@ -41,5 +41,5 @@
         Yet, in a heroic comeback, this last week it has 9 new leaves!
         </p>
     </div>
-    <?php include('../../footer.php'); ?>
+    <!-- FOOTER -->
 </html>

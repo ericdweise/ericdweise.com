@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/stylesheets/main.css">
     </head>
-    <?php include('header.php'); ?>
+    <!-- HEADER -->
     <div class="page-content">
         <img class="page-content border circle" src="assets/images/bernie-400.jpg">
         <section>
@@ -45,5 +45,5 @@ Hopefully they stay benign.
 </p>
         </section>
     </div>
-    <?php include('footer.php'); ?>
+    <!-- FOOTER -->
 </html>

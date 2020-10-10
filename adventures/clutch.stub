@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="/assets/stylesheets/main.css">
         <link rel="stylesheet" href="/assets/stylesheets/flickity.css">
     </head>
-    <?php include('../header.php'); ?>
+    <!-- HEADER -->
     <div class="page-content">
       <h1>Mechanical Misadventures</h1>
       <p>How the internet taught me something I am entirely unqualified to do.</p>
@@ -118,6 +118,6 @@
         <li> <a href="https://www.youtube.com/watch?v=qBajwSZUNio">A way to remove the CV axles that I should not have needed to look up</a>
       </ul>
     </div>
-    <?php include('../footer.php'); ?>
+    <!-- FOOTER -->
     <script src="/assets/javascript/flickity.pkgd.js"></script>
 </html>
