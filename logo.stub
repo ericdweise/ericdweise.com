@@ -15,7 +15,7 @@
         In the past I used to create it by hand using a compass and ruler, but that was way too time intensive.
         This is its first digital incarnation.
         </p>
-        <?php echo file_get_contents("assets/icons/logo-footer.svg"); ?>
+        <img src="assets/icons/logo-footer.svg") >
     </div>
     <!-- FOOTER -->
 </html>
