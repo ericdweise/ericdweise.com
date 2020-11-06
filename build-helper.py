@@ -3,7 +3,6 @@ import sys
 
 input_file = sys.argv[1]
 output_file = sys.argv[2]
-print(f'{input_file} + header.html + footer.html > {output_file}')
 
 HEADERFILE = 'assets/header.html'
 FOOTERFILE = 'assets/footer.html'
