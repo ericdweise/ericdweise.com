@@ -209,3 +209,25 @@ h2.blog-date {
     color: #AEAEAE;
     text-decoration: bold;
 }
+
+/* FLICKITY image carousel */
+.container-slides {
+    border-radius: 1ch;
+    overflow: hidden;
+}
+.flickity-button { /* don't display button, not positioned right */
+    display: none;
+}
+.flickity-page-dots { /* position dots in carousel */
+  bottom: 0px;
+}
+.flickity-page-dots .dot { /* white circles */
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+.flickity-page-dots .dot.is-selected { /* fill-in selected dot */
+  background: white;
+}
