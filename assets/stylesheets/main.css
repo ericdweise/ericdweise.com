@@ -150,27 +150,19 @@ a.site-title:hover {
 }
 
 /*** FOOTER ***/
-div#footer-border {
-    width: 100%;
-    color: #f0f0f0;
+div#footer {
     border-top: 1px solid #125E87;
-    margin-top: 1.5rem;
+    margin-top: 2ch;
 }
-div#footer-wrapper {
-    max-width: 80ch;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 2ch;
-    padding-left: 2ch;
-    padding-top: 2ch;
-    padding-bottom: 2ch;
-    display: flex;
+table.footer {
+    width: 100%;
+    margin-top: 2ch;
 }
-div#footer-col-1 {
-    width: 50%;
+col.footer {
+    width: 33%;
 }
-div#footer-col-2 {
-    width: 50%;
+td.footer {
+    text-align: center;
 }
 #find-me {
     text-align: left;
@@ -180,23 +172,14 @@ div#footer-col-2 {
     list-style: none;
     padding-left: 0;
 }
-#footer-right-list {
-    text-align: right;
-    margin: 0 auto;
-    position: relative;
-    float: right;
-    list-style: none;
-    padding-right: 0;
-}
 a.footer {
     color: #125E87;
-    line-height: 25px;
     text-decoration: none;
 }
 span.footer:hover {
     text-decoration: underline;
 }
-.svg-icon {
+svg.footer {
     width: 16px;
     height: 16px;
     fill: #125E87;
