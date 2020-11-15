@@ -188,9 +188,21 @@ svg.footer {
 }
 
 /*** BLOG ***/
-h2.blog-date {
-    color: #AEAEAE;
+div.thought-toc-elt {
+    width: 100%;
+    padding-bottom: 2ch;
+}
+div.date {
+    color: #808080;
     text-decoration: bold;
+    width: 12ch;
+    float: left;
+}
+div.blog-summary {
+    margin-left: 12ch;
+}
+p.tags {
+    color: #808080;
 }
 
 /* FLICKITY image carousel */
