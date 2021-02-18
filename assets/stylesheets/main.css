@@ -13,14 +13,12 @@ body {
 
 div.contents {
     max-width: 80ch;
-    /* TODO: min-height */
-    border: 2px solid #125E87;
     border-radius: 2ch;
-    background-color: #f0f0f0;
+    background-color: rgba(0,0,0,0.75);
     margin: auto;
     margin-top: 2ch;
     margin-bottom: 2ch;
-    color: #000000;
+    color: #aaaaaa;
     overflow: hidden;
     text-align: justify;
 }
@@ -65,17 +63,17 @@ img.circle {
 
 /*** HEADER ***/
 header {
-    background-color: #125E87;
+    /* background-color: #125E87; */
 }
 .wrapper {
     padding-top: 1ch;
     padding-left: 2ch;
     padding-right: 2ch;
-    height: 6ch;
 }
 .nav-link {
-    color: #f0f0f0;
+    color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
     padding-left: 2ch;
     line-height: 50px;
 }
@@ -83,8 +81,9 @@ header {
     text-decoration: underline;
 }
 a.site-title {
-    color: #f0f0f0;
-    font-size: 25px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
     text-decoration: none;
     line-height: 50px;
     font: Monaco;
@@ -108,30 +107,28 @@ a.site-title:hover {
         position: absolute;
         top: 3ch;
         right: 2ch;
-        background-color: #125E87;
-        border: 1px solid #d5d5d5;
+        background-color: #000000;
         border-radius: 5px;
         text-align: right;
     }
     .navbar label[for="nav-trigger"] {
         display: block;
         float: right;
-        width: 36px;
-        height: 36px;
+        width: 45px;
+        height: 45px;
         z-index: 2;
         cursor: pointer;
     }
     .navbar .menu-icon {
         display: block;
         float: right;
-        width: 36px;
-        height: 26px;
+        width: 45px;
+        height: 45px;
         line-height: 0;
-        padding-top: 10px;
         text-align: center;
     }
     .navbar .menu-icon>svg path {
-        fill: #d5d5d5;
+        fill: #ffffff;
     }
     .navbar input ~ .trigger {
         clear: both;
@@ -143,7 +140,7 @@ a.site-title:hover {
     }
     .navbar .nav-link {
         display: block;
-        min-width: 13ch;
+        min-width: 8ch;
         padding: 0.5ch 1ch;
         line-height: 20px;
     }
