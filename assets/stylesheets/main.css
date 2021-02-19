@@ -14,7 +14,7 @@ body {
 div.contents {
     max-width: 80ch;
     border-radius: 2ch;
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0,10,10,0.75);
     margin: auto;
     margin-top: 2ch;
     margin-bottom: 2ch;
@@ -36,7 +36,7 @@ div.detail {
 
 /*** Text Formatting ***/
 a {
-    color: #125E87;
+    color: #2a6c6c;
     text-decoration: none;
 }
 a:hover {
@@ -55,7 +55,7 @@ img.page-content {
     max-height: 45ch;
 }
 img.border {
-    border: 2px solid #6C0E1C;
+    border: 2px solid #2a6c6c;
 }
 img.circle {
     border-radius: 50%;
@@ -87,9 +87,11 @@ a.site-title {
     text-decoration: none;
     line-height: 50px;
     font: Monaco;
+    /* text-shadow: 2px 2px #c32148; */
+    text-shadow: 2px 2px #2a6c6c;
 }
 a.site-title:hover {
-    text-decoration: underline;
+    text-shadow: 2px 2px #c32148;
 }
 
 /*** NAVIGATION BAR ***/
@@ -148,7 +150,7 @@ a.site-title:hover {
 
 /*** FOOTER ***/
 div#footer {
-    border-top: 1px solid #125E87;
+    border-top: 1px solid #2a6c6c;
     margin-top: 2ch;
 }
 table.footer {
@@ -170,7 +172,7 @@ td.footer {
     padding-left: 0;
 }
 a.footer {
-    color: #125E87;
+    color: #2a6c6c;
     text-decoration: none;
 }
 span.footer:hover {
@@ -179,7 +181,7 @@ span.footer:hover {
 svg.footer {
     width: 16px;
     height: 16px;
-    fill: #125E87;
+    fill: #2a6c6c;
     padding-right: 5px;
     vertical-align: text-top;
 }
