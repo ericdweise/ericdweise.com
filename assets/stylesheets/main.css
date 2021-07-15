@@ -87,11 +87,6 @@ a.site-title {
     text-decoration: none;
     line-height: 50px;
     font: Monaco;
-    /* text-shadow: 2px 2px #c32148; */
-    text-shadow: 2px 2px #2a6c6c;
-}
-a.site-title:hover {
-    text-shadow: 2px 2px #c32148;
 }
 
 /*** NAVIGATION BAR ***/
@@ -104,9 +99,8 @@ a.site-title:hover {
 .navbar .menu-icon {
     display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 80ch) {
     .navbar {
-        position: absolute;
         top: 3ch;
         right: 2ch;
         background-color: #000000;
