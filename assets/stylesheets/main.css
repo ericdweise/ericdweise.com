@@ -219,3 +219,26 @@ p.tags {
 .flickity-page-dots .dot.is-selected { /* fill-in selected dot */
   background: white;
 }
+
+/* Expandable Boxes */
+div.expandable {
+    border: 1px solid #2a6c6c; 
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+}
+p.expandTitle {
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+}
+div.expandable:hover {
+    background-color: rgba(42,108,108,0.25)
+}
+div.small {
+    display: none;
+}
+div.big {
+    display: block;
+}
