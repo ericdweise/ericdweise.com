@@ -62,9 +62,6 @@ img.circle {
 }
 
 /*** HEADER ***/
-header {
-    /* background-color: #125E87; */
-}
 .wrapper {
     padding-top: 1ch;
     padding-left: 2ch;
@@ -99,49 +96,6 @@ a.site-title {
 .navbar .menu-icon {
     display: none;
 }
-@media screen and (max-width: 80ch) {
-    .navbar {
-        position: absolute;
-        top: 3ch;
-        right: 2ch;
-        background-color: #000000;
-        border-radius: 5px;
-        text-align: right;
-    }
-    .navbar label[for="nav-trigger"] {
-        display: block;
-        float: right;
-        width: 45px;
-        height: 45px;
-        z-index: 2;
-        cursor: pointer;
-    }
-    .navbar .menu-icon {
-        display: block;
-        float: right;
-        width: 10px;
-        height: 10px;
-        line-height: 0;
-        text-align: center;
-    }
-    .navbar .menu-icon>svg path {
-        fill: #ffffff;
-    }
-    .navbar input ~ .trigger {
-        clear: both;
-        display: none;
-    }
-    .navbar input:checked ~ .trigger {
-        display: block;
-        padding-bottom: 5px;
-    }
-    .navbar .nav-link {
-        display: block;
-        min-width: 8ch;
-        padding: 0.5ch 1ch;
-        line-height: 20px;
-    }
-}
 
 /*** FOOTER ***/
 div#footer {
@@ -149,7 +103,9 @@ div#footer {
     margin-top: 2ch;
 }
 table.footer {
-    width: 100%;
+    float:left;
+    border-collapse:collapse;
+    width:100%;
 }
 td.footer {
     padding: 2ch;
@@ -239,4 +195,83 @@ div.small {
 }
 div.big {
     display: block;
+}
+
+.footer1 {
+    width: 25%;
+    padding: 2ch;
+}
+.footer2 {
+    width: 50%;
+    padding: 2ch;
+}
+.about-me {
+    display: none;
+    border: none;
+}
+
+/* SMALL SCREEN PROPERTIES */
+@media screen and (max-width: 80ch) {
+    /* HEADER */
+    .navbar {
+        position: absolute;
+        top: 3ch;
+        right: 2ch;
+        background-color: #000000;
+        border-radius: 5px;
+        text-align: right;
+    }
+    .navbar label[for="nav-trigger"] {
+        display: block;
+        float: right;
+        width: 45px;
+        height: 45px;
+        z-index: 2;
+        cursor: pointer;
+    }
+    .navbar .menu-icon {
+        display: block;
+        float: right;
+        width: 10px;
+        height: 10px;
+        line-height: 0;
+        text-align: center;
+    }
+    .navbar .menu-icon>svg path {
+        fill: #ffffff;
+    }
+    .navbar input ~ .trigger {
+        clear: both;
+        display: none;
+    }
+    .navbar input:checked ~ .trigger {
+        display: block;
+        padding-bottom: 5px;
+    }
+    .navbar .nav-link {
+        display: block;
+        min-width: 8ch;
+        padding: 0.5ch 1ch;
+        line-height: 20px;
+    }
+
+    /* FOOTER */
+    .footer1 {
+        width: 50%;
+    }
+    .footer2 {
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;       
+        padding: 0;
+    }
+    .about-me {
+        clear: both;
+        display: block;
+        border-top: 1px solid #2a6c6c;
+        padding-left: 2ch;
+        padding-right: 2ch;
+    }
 }
